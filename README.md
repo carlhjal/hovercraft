@@ -1,5 +1,15 @@
 # Hovercraft
 
+This is a Raspberry Pi Pico based project: a hovercraft capable of moving, steering and obstacle avoidance by use of an ultrasonic sensor and opening/closing shutters connected to its pressurized interior.
+
+All the 3D printed parts from this project are available in the models folder.
+
+PlatformIO is needed to build project "Robot Control Program".
+
+A detailed/exploded view of the complete assembly is in the works..
+
+Made as part of the Robotics Engineering Project course at the University of Tartu.
+
 ## Bill of materials
 - x1 Raspberry Pi Pico
 - x1 Breadboard
@@ -28,5 +38,3 @@
 - x1 cut cardboard for securing IMU on bottom plate
 
 Any .STL files are available under models/stl_files
-
-PlatformIO needed to build project "Robot Control Program"

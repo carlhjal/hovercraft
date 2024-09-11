@@ -1,0 +1,37 @@
+#include <Arduino.h>
+
+void engage_sliding_mode();
+bool too_fast();
+void slide();
+void update_v_est();
+void get_mag_data();
+void stop_fast();
+void come_to_a_graceful_stop();
+void rotate();
+void boost_like_no_tomorrow();
+void creep_forward();
+void engage_hover_mode();
+void hover_nicely();
+void engage_graceful_stop();
+void engage_emergency_stop();
+void engage_rotation_mode();
+void engage_turbo_drive();
+bool should_turbo_boost();
+bool should_hover();
+bool hover_cooldown_over();
+bool should_hover_post_emergency();
+bool enough_turbo();
+bool should_gracefully_stop();
+bool should_emergency_stop();
+bool finished_rotate();
+bool should_rotate();
+void echo_handler();
+void timer_trig_low_handler(uint);
+void timer_start_m_handler(uint);
+void calibrate_mag();
+long calc_dist(long fly_time);
+void initial_calibration();
+void accel_calibrate();
+bool should_calibrate();
+bool too_slow();
+bool stuck();
